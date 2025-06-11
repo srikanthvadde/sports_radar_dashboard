@@ -1,7 +1,6 @@
 import streamlit as st
 from db import get_db_connection
 from queries import get_summary_stats, get_top_competitors,get_highest_point_competitors,get_competitor_details,get_country_analysis, get_filtered_competitors_from_db
-from utils import plot_leaderboard
 
 st.title("Sports Radar Dashboard")
 
